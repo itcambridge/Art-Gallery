@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="enable-sound" class="sound-button">Enable Sound</button>
+
+    <div class="gallery-container">
+        <div class="center-image"></div>
+        <div class="circle-gallery">
+            <img src="images/circular.png" alt="Circular Design" class="gallery-img" data-sound="sound1">
+            <img src="images/fibonacci-dna.png" alt="Fibonacci DNA" class="gallery-img" data-sound="sound2">
+            <img src="images/golden-ratio-palace.png" alt="Golden Ratio Palace" class="gallery-img" data-sound="sound3">
+            <img src="images/mezzanine.png" alt="Mezzanine" class="gallery-img" data-sound="sound4">
+            <img src="images/fibonacci-galaxy.png" alt="Fibonacci Galaxy" class="gallery-img" data-sound="sound5">
+            <img src="images/GR-jungle.png" alt="Golden Ratio Jungle" class="gallery-img" data-sound="sound6">
+            <img src="images/GR-parrot.png" alt="Golden Ratio Parrot" class="gallery-img" data-sound="sound7">
+            <img src="images/sapce-ammonite.png" alt="Space Ammonite" class="gallery-img" data-sound="sound8">
+        </div>
+        <div class="title-box">
+            <h2 id="image-title">Image Title</h2>
+        </div>
+    </div>
+
+    <!-- Audio elements -->
+    <audio id="sound1" src="sounds/circular.mp3" preload="auto"></audio>
+    <audio id="sound2" src="sounds/fibonacci-dna.mp3" preload="auto"></audio>
+    <audio id="sound3" src="sounds/golden-ratio-palace.mp3" preload="auto"></audio>
+    <audio id="sound4" src="sounds/mezzanine.mp3" preload="auto"></audio>
+    <audio id="sound5" src="sounds/fibonacci-galaxy.mp3" preload="auto"></audio>
+    <audio id="sound6" src="sounds/GR-jungle.mp3" preload="auto"></audio>
+    <audio id="sound7" src="sounds/GR-parrot.mp3" preload="auto"></audio>
+    <audio id="sound8" src="sounds/space-ammonite.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html> 
